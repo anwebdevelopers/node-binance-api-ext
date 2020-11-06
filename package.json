@@ -4,15 +4,15 @@
   "description": "Extended Binance API for node with intellisense and full documentation",
   "main": "src/index.js",
   "dependencies": {
-    "async": "^3.1.0",
-    "axios": "^0.19.2",
-    "https-proxy-agent": "^3.0.1",
+    "async": "^3.2.0",
+    "axios": "^0.21.0",
+    "https-proxy-agent": "^5.0.0",
     "qs": "^6.9.4",
     "rate-limit-ext": "^2.0.4",
-    "socks-proxy-agent": "^4.0.2",
+    "socks-proxy-agent": "^5.0.0",
     "string-hash": "^1.1.3",
     "url": "^0.11.0",
-    "ws": "^7.2.0"
+    "ws": "^7.3.1"
   },
   "scripts": {
     "test": "mocha",
@@ -45,13 +45,13 @@
     "chai": "^4.2.0",
     "chai-counter": "^1.0.0",
     "codacy-coverage": "^3.4.0",
-    "codecov": "^3.6.1",
-    "coveralls": "^3.0.7",
-    "eslint": "^6.7.0",
+    "codecov": "^3.8.1",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.12.1",
     "istanbul": "^0.4.5",
-    "jsdoc": "^3.6.3",
-    "mocha": "^6.2.2",
+    "jsdoc": "^3.6.6",
+    "mocha": "^8.2.1",
     "mocha-lcov-reporter": "^1.3.0",
-    "nyc": "^14.1.1"
+    "nyc": "^15.1.0"
   }
 }

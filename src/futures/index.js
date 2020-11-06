@@ -481,7 +481,7 @@ module.exports = function (common) {
   this.balance = async (params = {}, callback) => {
     return promiseRequest(
       common,
-      'v1/balance',
+      'v2/balance',
       params,
       {
         base: common.fapi,
@@ -503,7 +503,7 @@ module.exports = function (common) {
   this.account = async (params = {}, callback) => {
     return promiseRequest(
       common,
-      'v1/account',
+      'v2/account',
       params,
       {
         base: common.fapi,
